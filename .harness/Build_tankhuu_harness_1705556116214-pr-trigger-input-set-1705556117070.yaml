@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_tankhuu_harness_1705556116214-pr-trigger-input-set
+  identifier: Build_tankhuu_harness_1705556116214prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_tankhuu_harness_1705556116214
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
